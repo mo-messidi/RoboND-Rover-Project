@@ -38,9 +38,21 @@ You're reading it!
 
 ### Notebook Analysis
 #### 1. Run the functions provided in the notebook on test images (first with the test data provided, next on data you have recorded). Add/modify functions to allow for color selection of obstacles and rock samples.
-Here is an example of how to include an image in your writeup.
+The notebook was used for the intial writeup and parameter testing of the functions that will later be added to the perception.py file.
 
-![alt text][image1]
+First a perspective transform of the camera image from the robot's perspective to a bird's eye view world perspective was made. A mask used to ensure that only the robots POV is used.
+
+[image4]: ./calibration_images/Calibration_image2.jpg
+[image5]: ./calibration_images/Calibration_image3.jpg
+
+Color thresholds were set to defentiate open terrain, obsticales and collectable rocks.
+
+[image6]: ./calibration_images/Calibration_image4.jpg
+[image7]: ./calibration_images/Calibration_image5.jpg
+
+The robot images were then converted world coordinates and then to robot centric distance + angle coordinates for feedback to the robot again.
+
+[image8]: ./calibration_images/Calibration_image5.jpg
 
 #### 1. Populate the `process_image()` function with the appropriate analysis steps to map pixels identifying navigable terrain, obstacles and rock samples into a worldmap.  Run `process_image()` on your test data using the `moviepy` functions provided to create video output of your result. 
 And another! 
