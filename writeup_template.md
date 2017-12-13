@@ -24,7 +24,12 @@
 
 [image1]: ./misc/rover_image.jpg
 [image2]: ./calibration_images/example_grid1.jpg
-[image3]: ./calibration_images/example_rock1.jpg 
+[image3]: ./calibration_images/example_rock1.jpg
+[image4]: ./calibration_images/Calibration_image2.jpg
+[image5]: ./calibration_images/Calibration_image3.jpg
+[image6]: ./calibration_images/Calibration_image4.jpg
+[image7]: ./calibration_images/Calibration_image5.jpg
+[image8]: ./calibration_images/Calibration_image5.jpg
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/916/view) Points
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
@@ -42,17 +47,17 @@ The notebook was used for the intial writeup and parameter testing of the functi
 
 First a perspective transform of the camera image from the robot's perspective to a bird's eye view world perspective was made. A mask used to ensure that only the robots POV is used.
 
-[image4]: ./calibration_images/Calibration_image2.jpg
-[image5]: ./calibration_images/Calibration_image3.jpg
+![alt text][image4]
+![alt text][image5]
 
 Color thresholds were set to defentiate open terrain, obsticales and collectable rocks.
 
-[image6]: ./calibration_images/Calibration_image4.jpg
-[image7]: ./calibration_images/Calibration_image5.jpg
+![alt text][image6]
+![alt text][image7]
 
 The robot images were then converted world coordinates and then to robot centric distance + angle coordinates for feedback to the robot again.
 
-[image8]: ./calibration_images/Calibration_image5.jpg
+![alt text][image8]
 
 #### 1. Populate the `process_image()` function with the appropriate analysis steps to map pixels identifying navigable terrain, obstacles and rock samples into a worldmap.  Run `process_image()` on your test data using the `moviepy` functions provided to create video output of your result. 
 And another! 
