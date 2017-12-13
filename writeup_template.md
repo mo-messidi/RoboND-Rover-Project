@@ -30,7 +30,7 @@
 [image6]: ./calibration_images/Calibration_image4.png
 [image7]: ./calibration_images/Calibration_image5.png
 [image8]: ./calibration_images/Calibration_image0.png
-[image8]: ./calibration_images/rover_simulation1.png
+[image9]: ./calibration_images/rover_simulation1.png
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/916/view) Points
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
@@ -49,16 +49,15 @@ The notebook was used for the intial writeup and parameter testing of the functi
 First a perspective transform of the camera image from the robot's perspective to a bird's eye view world perspective was made. A mask used to ensure that only the robots POV is used.
 
 ![alt text][image4]
-![alt text][image5]
 
 Color thresholds were set to defentiate open terrain, obsticales and collectable rocks.
 
+![alt text][image5]
 ![alt text][image6]
-![alt text][image7]
 
 The robot images were then converted world coordinates and then to robot centric distance + angle coordinates for feedback to the robot again.
 
-![alt text][image8]
+![alt text][image7]
 
 ### Autonomous Navigation and Mapping
 
