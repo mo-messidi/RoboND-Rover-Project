@@ -30,6 +30,7 @@
 [image6]: ./calibration_images/Calibration_image4.png
 [image7]: ./calibration_images/Calibration_image5.png
 [image8]: ./calibration_images/Calibration_image0.png
+[image8]: ./calibration_images/rover_simulation1.png
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/916/view) Points
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
@@ -59,23 +60,15 @@ The robot images were then converted world coordinates and then to robot centric
 
 ![alt text][image8]
 
-#### 1. Populate the `process_image()` function with the appropriate analysis steps to map pixels identifying navigable terrain, obstacles and rock samples into a worldmap.  Run `process_image()` on your test data using the `moviepy` functions provided to create video output of your result. 
-And another! 
-
-![alt text][image2]
 ### Autonomous Navigation and Mapping
 
-#### 1. Fill in the `perception_step()` (at the bottom of the `perception.py` script) and `decision_step()` (in `decision.py`) functions in the autonomous mapping scripts and an explanation is provided in the writeup of how and why these functions were modified as they were.
+The `perception_step()` function within the `perception.py` script was populated with the functions that were created and tested in the notebook with minor changes so the input is taken and the results are returned to the `Rover()` object.
 
 
-#### 2. Launching in autonomous mode your rover can navigate and map autonomously.  Explain your results and how you might improve them in your writeup.  
+#### 2. Launching in autonomous mode the rover can navigate and map autonomously
 
-**Note: running the simulator with different choices of resolution and graphics quality may produce different results, particularly on different machines!  Make a note of your simulator settings (resolution and graphics quality set on launch) and frames per second (FPS output to terminal by `drive_rover.py`) in your writeup when you submit the project so your reviewer can reproduce your results.**
+The 'drive_rover.py' script was then run and the Unity Robot in World simulator was started with res: 800x600 and Good graphics quality. A mean FPS of 55 was obtain during the run. After 176 seconds 64.0% of the world was mapped with a fidelity of 63.2% and 5 rock samples with located by the robot.
 
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
-
-
-
-![alt text][image3]
+![alt text][image9]
 
 
