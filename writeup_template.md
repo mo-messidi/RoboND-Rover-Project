@@ -25,11 +25,11 @@
 [image1]: ./misc/rover_image.jpg
 [image2]: ./calibration_images/example_grid1.jpg
 [image3]: ./calibration_images/example_rock1.jpg
-[image4]: ./calibration_images/Calibration_image2.jpg
-[image5]: ./calibration_images/Calibration_image3.jpg
-[image6]: ./calibration_images/Calibration_image4.jpg
-[image7]: ./calibration_images/Calibration_image5.jpg
-[image8]: ./calibration_images/Calibration_image5.jpg
+[image4]: ./calibration_images/Calibration_image2.png
+[image5]: ./calibration_images/Calibration_image3.png
+[image6]: ./calibration_images/Calibration_image4.png
+[image7]: ./calibration_images/Calibration_image5.png
+[image8]: ./calibration_images/Calibration_image0.png
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/916/view) Points
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
