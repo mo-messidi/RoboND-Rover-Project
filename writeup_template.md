@@ -52,7 +52,6 @@ First a perspective transform of the camera image from the robot's perspective t
 
 Color thresholds were set to defentiate open terrain, obsticales and collectable rocks.
 
-![alt text][image5]
 ![alt text][image6]
 
 The robot images were then converted world coordinates and then to robot centric distance + angle coordinates for feedback to the robot again.
